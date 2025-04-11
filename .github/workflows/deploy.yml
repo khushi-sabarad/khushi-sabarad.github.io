@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Choose a Hugo version: https://github.com/gohugoio/hugo/releases
-      HUGO_VERSION: 0.111.3 # Or use the newer 0.139.4 from your file if needed
+      HUGO_VERSION: 0.145.0 # Or use the newer 0.139.4 from your file if needed
     steps:
       - name: Install Hugo CLI
         run: |

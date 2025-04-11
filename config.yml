@@ -1,0 +1,65 @@
+baseURL: "https://khushi-sabarad.github.io/"
+title: "Khushi's Portfolio"
+theme: "PaperMod"
+languageCode: "en-us"
+defaultContentLanguage: "en"
+enableEmoji: true
+enableRobotsTXT: true
+
+# Main menu items
+menu:
+  main:
+    - identifier: "resume"
+      name: "Resume"
+      url: "/resume/"
+      weight: 10
+    - identifier: "projects"
+      name: "Projects"
+      url: "/projects/"
+      weight: 20
+    - identifier: "blog"
+      name: "Blog"
+      url: "/posts/"
+      weight: 30
+
+# Site parameters
+params:
+  description: "Khushi's personal site"
+  # author: "Khushi"
+  defaultTheme: "auto"
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowBreadCrumbs: false
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  
+  # Remove footer copyright message
+  footer:
+    hideFooter: true
+    hideCredits: true
+    hideCopyright: true 
+  
+  # Home page profile mode
+  profileMode:
+    enabled: true
+    title: "Khushi Sabarad"
+    subtitle: "Data Engineer | Software Developer | DevOps | Analyst"
+    # imageUrl: "/images/profile.jpg"
+    # imageTitle: "Your Photo"
+    
+  # Social links with icons
+  socialIcons:
+    - name: "email"
+      url: "mailto:khushi.sabarad@gmail.com"
+    - name: "github"
+      url: "https://github.com/khushi-sabarad"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/khushi-sabarad/"
+    - name: "medium"
+      url: "https://medium.com/@khushi.sabarad"
+
+# Taxonomies for categories and tags
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  series: "series"

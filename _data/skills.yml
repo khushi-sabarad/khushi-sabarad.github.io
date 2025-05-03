@@ -1,4 +1,4 @@
-programming_languages:
+languages:
   - item: Python
   - item: Java
   - item: C++
@@ -6,7 +6,7 @@ programming_languages:
   - item: HTML
   - item: SQL (MySQL, PostgreSQL)
 
-python_libraries:
+libraries:
   - item: Pandas
   - item: Numpy
   - item: Matplotlib
@@ -17,7 +17,7 @@ python_libraries:
   - item: Flask
   - item: PyTest
 
-big_data_technologies:
+bigdata:
   - item: PySpark
   - item: Hadoop (Hive, Pig, MapReduce)
   - item: Cloud Platforms (AWS, GCP, Azure)
@@ -26,13 +26,11 @@ big_data_technologies:
   - item: Data Modeling
   - item: Data Warehousing
 
-data_visualization:
+tools:
   - item: PowerBI
   - item: Tableau
   - item: Looker
   - item: Excel
-
-development_tools:
   - item: Git & GitHub
   - item: Bash
   - item: Jupyter Notebook

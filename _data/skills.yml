@@ -1,33 +1,41 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
   - item: Python
-  - item: SQL
+  - item: SQL (MySQL, PostgreSQL)
   - item: R
+  - item: HTML
+  - item: C++
+  - item: Java
+
 
 frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: Flask
+  - item: SQLAlchemy
+  - item: Marshmallow
+  - item: PySpark
+  - item: PyTest  
+  - item: Pandas
+  - item: BeautifulSoup
+  - item: Numpy
+  - item: Matplotlib
+  - item: Sklearn
 
 tools:
-  - item: Bash
   - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
+  - item: Jupyter Notebook
+  - item: Bash
   - item: Postman
-  - item: MongoDB
+  - item: PowerBI/ Tableau/ Looker
+  - item: pgAdmin
+  - item: Excel
+  - item: Jira
+  - item: Kali Linux
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+bigdata:
+  - item: ETL Processes
+  - item: Data Pipelines
+  - item: Data Modeling
+  - item: Data Warehousing
+  - item: Cloud (AWS, GCP, Azure)
+  - item: API Development
+  - item: Machine Learning
+  - item: Hadoop (Hive, Pig, MapReduce)

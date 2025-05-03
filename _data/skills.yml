@@ -1,41 +1,41 @@
-languages:
+programming_languages:
   - item: Python
-  - item: SQL (MySQL, PostgreSQL)
+  - item: Java
+  - item: C++
   - item: R
   - item: HTML
-  - item: C++
-  - item: Java
+  - item: SQL (MySQL, PostgreSQL)
 
-
-frameworks:
-  - item: Flask
-  - item: SQLAlchemy
-  - item: Marshmallow
-  - item: PySpark
-  - item: PyTest  
+python_libraries:
   - item: Pandas
-  - item: BeautifulSoup
   - item: Numpy
   - item: Matplotlib
-  - item: Sklearn
+  - item: Scikit-learn
+  - item: BeautifulSoup
+  - item: SQLAlchemy
+  - item: Marshmallow
+  - item: Flask
+  - item: PyTest
 
-tools:
-  - item: Git & Github
-  - item: Jupyter Notebook
-  - item: Bash
-  - item: Postman
-  - item: PowerBI/ Tableau/ Looker
-  - item: pgAdmin
-  - item: Excel
-  - item: Jira
-  - item: Kali Linux
-
-bigdata:
+big_data_technologies:
+  - item: PySpark
+  - item: Hadoop (Hive, Pig, MapReduce)
+  - item: Cloud Platforms (AWS, GCP, Azure)
   - item: ETL Processes
   - item: Data Pipelines
   - item: Data Modeling
   - item: Data Warehousing
-  - item: Cloud (AWS, GCP, Azure)
-  - item: API Development
-  - item: Machine Learning
-  - item: Hadoop (Hive, Pig, MapReduce)
+
+data_visualization:
+  - item: PowerBI
+  - item: Tableau
+  - item: Looker
+  - item: Excel
+
+development_tools:
+  - item: Git & GitHub
+  - item: Bash
+  - item: Jupyter Notebook
+  - item: Postman
+  - item: Jira
+  - item: Kali Linux

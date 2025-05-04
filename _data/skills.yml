@@ -1,10 +1,10 @@
 languages:
   - item: Python
-  - item: Java
-  - item: C++
+  - item: SQL (MySQL, PostgreSQL)
   - item: R
   - item: HTML
-  - item: SQL (MySQL, PostgreSQL)
+  - item: Java
+  - item: C++
 
 libraries:
   - item: Pandas
